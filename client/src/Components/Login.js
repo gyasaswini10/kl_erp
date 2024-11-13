@@ -32,7 +32,7 @@ const Login = () => {
     e.preventDefault();
 
     try {
-      const res = await axios.post('http://localhost:5000/api/users/login', {
+      const res = await axios.post('https://kl-erp-server.onrender.com/api/users/login', {
         email,
         password,
       });
